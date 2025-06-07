@@ -1,0 +1,33 @@
+# Ignore environment variables file
+.env
+
+# Ignore Streamlit cache and logs
+/.streamlit/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Ollama model files (if applicable)
+*.h5
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Ignore specific files
+chat.py
+Untitled.ipynb
+Untitled1.ipynb
+autoforchat.py
+chat_stream.py
